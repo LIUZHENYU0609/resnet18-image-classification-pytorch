@@ -14,7 +14,7 @@ import copy
 import sys
 
 # torchvision的models中有很多与训练好的模型，如resnet、vgg、alexnet等
-data_dir = "./datasets/thyroid_ultrasound_data"
+data_dir = "/home/liuzhenyu/data/resnet"
 model_name = "resnet"
 num_classes = 2
 batch_size = 32
